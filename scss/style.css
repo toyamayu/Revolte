@@ -1,1 +1,4 @@
-null
+.bg {
+  height: 250px;
+  background-size: cover;
+}
