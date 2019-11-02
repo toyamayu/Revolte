@@ -1,0 +1,26 @@
+$font-size-xxs: .5rem;
+$font-size-xs: .75rem;
+$font-size-sm: .875rem;
+$font-size-md: 1rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.25rem;
+$font-size-xxl: 1.875rem;
+$font-size-main: 2rem;
+
+@import "media-queries";
+// メディアクエリ
+$breakpoint-sm: 768px;
+
+@mixin sp-only {
+    @media (max-width: ($breakpoint-sm)) {
+    @content;
+    }
+}
+
+.bg{
+    height: 500px;
+    background-size: cover;
+    @include respond-above(sm) {
+        font-size: 250px;
+        }
+}
