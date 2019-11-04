@@ -30,3 +30,30 @@ $breakpoint-sm: 768px;
         font-size: 250px;
         }
 }
+
+.bg-cover{
+    width: 100%;
+    height: 100vw;
+    @include respond-above(md) {
+        height: 50vw;
+    }
+}
+
+
+.mv-text{
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 25px);
+    text-align: center;
+    left: 0;
+    font-weight: bold; 
+    @include respond-above(md) {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 25px); 
+    left: 25%;
+    text-align: center;
+    font-weight: bold; 
+    font-size: 40px;
+    }
+}
