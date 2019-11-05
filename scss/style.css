@@ -8,6 +8,7 @@
   background-size: cover;
 }
 
+
 @media (min-width: 768px) {
   .bg {
     font-size: 250px;
