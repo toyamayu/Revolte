@@ -46,3 +46,54 @@
     font-size: 40px;
   }
 }
+
+.header-logo {
+  margin-left: 20px;
+  float: left;
+}
+.text-black {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 17px;
+}
+
+.header-list {
+  margin-left: 60px;
+}
+
+
+.d-inline-block {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+a.d-inline-block {
+  text-decoration: none;
+}
+
+.lead {
+  font-size: 35px;
+}
+
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  text-decoration: none;
+  color: #030303;
+  border: solid 1px white;
+  transition: .8s;
+  border-style: dotted;
+  background-image: linear-gradient(45deg, #eeeded 0%, #ffffff 100%);
+}
+
+.btn-flat-border:hover {
+  background: white(252, 251, 251);
+  color: rgb(252, 252, 252);
+  background-image: linear-gradient(45deg, #eeeded 0%, #ffffff 100%);
+}
+
+.text-right {
+  float: right;
+  padding-right: 5px;
+  margin-left: 90px;
+}
