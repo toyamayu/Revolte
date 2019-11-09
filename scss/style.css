@@ -96,3 +96,42 @@ a.d-inline-block {
   float: right;
   padding-right: 5px;
 }
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+
+.display-1 {
+	color: rgb(44, 44, 44);
+	display: flex;
+	align-items: center;
+}
+.display-1:before, .display-1:after {
+	content: "";
+	flex-grow: 1;
+	height: 2px;
+	display: block;
+}
+.display-1:before {
+	margin-right: .4em;
+	background: linear-gradient(-90deg, #888, transparent);
+}
+.display-1:after {
+	margin-left: .4em;
+	background: linear-gradient(90deg, #888, transparent);
+}
+
+.message {
+  font-family: 'Noto Serif JP', serif;
+  text-shadow: 1px 3px 5px #808080;
+}
+
+.title {
+  text-shadow: 1px 4px 6px #808080;
+}
+
+.back {
+  background-color: #eeeded;
+}
