@@ -6,12 +6,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/coliff/bootstrap-rfs/bootstrap-rfs.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" href="scss/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:600&display=swap&subset=japanese" rel="stylesheet">
     <title>Revolte</title>
 </html>
 <body>
 
     <!-- header -->
-    <header class="container-fluid bg-white py-4 px-5">
+    <header class="container-fluid bg-white py-2 px-5 header">
         <div class="row">
             <div class="col-lg-12">
                 <div class="col-lg-50">
@@ -20,9 +22,9 @@
                         <nav class="header-list col-30 text-right">
                             <ul class="text-black">
                                 <li class="d-inline-block"><a href="#" class="btn-flat-border">TOP</a></li>
-                                <li class="d-inline-block"><a href="#" class="btn-flat-border">SERVICE</a></li>
-                                <li class="d-inline-block"><a href="#" class="btn-flat-border">COMPANY</a></li>
-                                <li class="d-inline-block"><a href="#" class="btn-flat-border">CONTACT</a></li>
+                                <li class="d-inline-block"><a href="#SERVICE" class="btn-flat-border">SERVICE</a></li>
+                                <li class="d-inline-block"><a href="#COMPANY" class="btn-flat-border">COMPANY</a></li>
+                                <li class="d-inline-block"><a href="#CONTACT" class="btn-flat-border">CONTACT</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -34,24 +36,24 @@
     <!-- main-visual -->
         <div class="position-relative">
             <div class="">
-                <img class="bg-cover" src="img/blue-259458_1280.jpg" alt="">
+                <img class="bg-cover" src="img/blue-259458_1280.jpg" alt="" style="height: 700px;">
             </div>
             <div class="">
-                <p class="text-white mv-text">夢ある社会へ。挑戦者であれ。</p>
+                <p class="text-white mv-text message pt-4">夢ある社会へ。挑戦者であれ。</p>
             </div>
         </div>
 
 
     <!-- servise -->
 
-    <div class="container-fluid pb-4">
+    <div class="container-fluid pb-4 back">
         <div class="row">
             <div class="col-12 pl-4 pb-5">
-                <h3 class="display-1">SERVICE</h3>
+                <h3 class="display-1 pt-5 pl-3 pb-5 mt-5 text-center title" id="SERVICE">SERVICE</h3>
             </div>
             <div class="col-12 col-lg-4 mb-5 mb-md-0 d-flex">
                 <div class="card pickup-item">
-                    <img src="img/app.jpg" style="height: 250px;">
+                    <img src="img/app.jpg" style="height: 260px;">
                     <div class="card-body text-center">
                         <p class="headline-type2">
                         <span class="font-weight-bolder">
@@ -59,7 +61,7 @@
                         </span>
                         </p>
                         <hr class="headline-border mb-3">
-                        <p>WEBサイト制作・レスポンシブ・スマートフォン対応、CMS導入やシステム開発まで一貫して行います</p>
+                        <p>WEBサイト制作・レスポンシブ・スマートフォン対応、CMS導入やシステム開発まで一貫して行います。</p>
                     </div>
                 </div>
             </div>
@@ -104,8 +106,8 @@
 
     <!-- company -->
 
-    <div class="container-fluid py-5 px-5 ">
-        <h3 class="pb-5 display-1">COMPANY</h3>
+    <div class="container-fluid py-5 px-5 back">
+        <h3 class="pb-5 display-1 pt-5 pl-3 pb-5 mt-5 text-center title" id="COMPANY">COMPANY</h3>
         <div class="row">
             <div class="col-lg-6">
                 <img src="img/office.jpg" width="100%">
@@ -158,10 +160,10 @@
 
     <!-- contact -->
 
-    <div class="container-fluid px-5 py-5">
+    <div class="container-fluid px-5 py-5 back">
         <div class="row">
             <div class="col-12">
-                <h3 class="pb-5 display-1">Contact</h3>
+                <h3 class="pb-5 display-1 pt-5 pb-5 mt-5 text-center title" id="CONTACT">CONTACT</h3>
                 <form class="col-lg-6 mx-auto">
                     <div class="form-group mb-4">
                         <input type="name" class="form-control" id="exampleInputEmail1" placeholder="お名前">
@@ -219,5 +221,5 @@
             </div>            
         </div>
     </div>
-
+<script src="js/main.js"></script>
 </body>
