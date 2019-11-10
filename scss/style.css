@@ -135,3 +135,7 @@ a.d-inline-block {
 .back {
   background-color: #eeeded;
 }
+
+.v-message {
+  overflow: hidden;
+}
